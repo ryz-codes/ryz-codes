@@ -16,6 +16,12 @@ MATLAB implementation of dualized clique-tree conversion for sparse SDPs, with S
 
 **Paper:** Richard Y. Zhang and Javad Lavaei, [*Sparse semidefinite programs with guaranteed near-linear time complexity via dualized clique tree conversion*](https://doi.org/10.1007/s10107-020-01516-y), *Mathematical Programming* **188** (2021), 351–393. [arXiv](https://arxiv.org/abs/1710.03475)
 
+### [Modified SeDuMi (MoDuMi)](https://github.com/ryz-codes/MoDuMi)
+
+A modified version of **SeDuMi** for large, sparse, low-rank semidefinite programs. It replaces the dense interior-point Hessian solve with preconditioned conjugate gradients, exploiting the low-rank structure responsible for ill-conditioning.
+
+**Paper:** Richard Y. Zhang and Javad Lavaei, [*Modified Interior-Point Method for Large-and-Sparse Low-Rank Semidefinite Programs*](https://doi.org/10.1109/CDC.2017.8264510), *IEEE Conference on Decision and Control (CDC)*, 2017. [arXiv](https://arxiv.org/abs/1703.10973)
+
 ### [FastMDMC](https://github.com/ryz-codes/fastmdmc)
 
 MATLAB implementation of thresholding and maximum-determinant matrix completion for large-scale graphical lasso. When the thresholded covariance has sparse Cholesky structure, the max-det stage has linear time and memory complexity for fixed solution accuracy.
