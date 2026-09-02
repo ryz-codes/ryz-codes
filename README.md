@@ -1,6 +1,6 @@
 # Research software
 
-Software accompanying my work in **large-scale optimization** and **computational electromagnetics**, together with several reusable numerical tools. [Please visit my website for my information about my research.](ryz.nz)
+Software accompanying my work in **large-scale optimization** and **computational electromagnetics**, together with several reusable numerical tools. [Please visit my website for my information about my research.](http://ryz.nz)
 
 ## Sparse semidefinite optimization
 
