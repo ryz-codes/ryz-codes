@@ -22,7 +22,19 @@ MATLAB implementation of thresholding and maximum-determinant matrix completion 
 
 **Paper:** Richard Y. Zhang, Salar Fattahi, and Somayeh Sojoudi, [*Large-Scale Sparse Inverse Covariance Estimation via Thresholding and Max-Det Matrix Completion*](https://proceedings.mlr.press/v80/zhang18c.html), *ICML*, 2018. [arXiv](https://arxiv.org/abs/1802.04911)
 
-## Precorrected FFT and computational electromagnetics
+## Computational electromagnetics and Precorrected FFT
+
+### [FastLitz](https://github.com/ryz-codes/fastlitz)
+
+Three-dimensional simulator for realistic litz-wire constructions. FastLitz resolves individual strands and twisting geometry to compute current-driven and externally induced copper losses, using pFFT to accelerate the electromagnetic interactions.
+
+**Paper:** Richard Y. Zhang, Jacob K. White, and John G. Kassakian, [*Fast Simulation of Complicated 3-D Structures Above Lossy Magnetic Media*](https://doi.org/10.1109/TMAG.2014.2323933), *IEEE Transactions on Magnetics* **50**(10), 2014.
+
+Richard Y. Zhang, Jacob K. White, John G. Kassakian, and Charles R. Sullivan, [*Realistic litz wire characterization using fast numerical simulations*](https://doi.org/10.1109/APEC.2014.6803390), *IEEE APEC*, 2014.
+
+### [pFFT inductance / planar-media codes](https://github.com/ryz-codes/pfft-induct-m)
+
+Earlier MATLAB codes for inductance and magnetoquasistatic integral-equation calculations using pFFT, including $1/r$ and Hankel-type kernels and serial/parallel $N$-dimensional examples.
 
 ### [pFFT-m](https://github.com/ryz-codes/pfft-m)
 
@@ -31,16 +43,6 @@ A general-purpose, dimension-independent MATLAB implementation of the **precorre
 This is the numerical engine underlying **FastLitz** and my earlier integral-equation work on structures above planar magnetic media.
 
 **Related paper:** Richard Y. Zhang, Jacob K. White, and John G. Kassakian, [*Fast Simulation of Complicated 3-D Structures Above Lossy Magnetic Media*](https://doi.org/10.1109/TMAG.2014.2323933), *IEEE Transactions on Magnetics* **50**(10), 2014.
-
-### [FastLitz](https://github.com/ryz-codes/fastlitz)
-
-Three-dimensional simulator for realistic litz-wire constructions. FastLitz resolves individual strands and twisting geometry to compute current-driven and externally induced copper losses, using pFFT to accelerate the electromagnetic interactions.
-
-**Paper:** Richard Y. Zhang, Jacob K. White, John G. Kassakian, and Charles R. Sullivan, [*Realistic litz wire characterization using fast numerical simulations*](https://doi.org/10.1109/APEC.2014.6803390), *IEEE APEC*, 2014. [PDF](https://ryz.ece.illinois.edu/pdf/litz_apec2014.pdf)
-
-### [pFFT inductance / planar-media codes](https://github.com/ryz-codes/pfft-induct-m)
-
-Earlier MATLAB codes for inductance and magnetoquasistatic integral-equation calculations using pFFT, including $1/r$ and Hankel-type kernels and serial/parallel $N$-dimensional examples.
 
 ---
 
